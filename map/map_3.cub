@@ -1,0 +1,13 @@
+WE   ./img/texture/dark_tree_5.xpm
+EA    ./img/texture/dark_tree_3.xpm 
+NO    ./img/texture/dark_tree_4.xpm
+SO    ./img/texture/dark_tree_1.xpm
+C 0,0,150
+F 0,150,0
+S2 ./img/sprite/red_eyes.xpm
+S ./img/sprite/ghost.xpm
+R 500 500
+
+111
+1N1
+111
