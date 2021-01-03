@@ -6,7 +6,7 @@
 #    By: mlebrun <mlebrun@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/10/17 19:40:00 by mlebrun           #+#    #+#              #
-#    Updated: 2021/01/03 12:41:05 by mlebrun          ###   ########.fr        #
+#    Updated: 2021/01/03 21:16:39 by mlebrun          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,8 +52,8 @@ OBJS_GNF = ${SRCS_GNF:.c=.o}
 
 OBJS_CUB = ${OBJS_DRAW} ${OBJS_INIT} ${OBJS_FREE} ${OBJS_SAVE} ${OBJS_PARSE} ${OBJS_SPRITE} ${OBJS_RC} ${OBJS_UTILS}
 CC = clang
-CFLAGS = -Wall -Werror -Wextra  -I includes/ -I libft/ -I getnextline/ -D BUFFER_SIZE=1 -g3 -fsanitize=address
-MLX_FLAG = -L./minilibx-linux -lbsd -lmlx -lXext -lX11 -lm -g3 -fsanitize=address
+CFLAGS = -Wall -Werror -Wextra  -I includes/ -I libft/ -I getnextline/ -D BUFFER_SIZE=1
+MLX_FLAG = -L./minilibx-linux -lbsd -lmlx -lXext -lX11 -lm
 NAME = Cub3D
 LIB_NAME = libft_GNL.a
 RM	= rm -rf
